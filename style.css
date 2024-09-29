@@ -202,7 +202,7 @@ a:hover i {
 .contain{
   width: 100%;
   height: 600px;
-  padding-left: 620px;
+  padding-left: 530px;
   padding-top: 80px;
 
 }
@@ -492,8 +492,8 @@ tbody {
 /* feedback form */
 
 .feedformcontainer{
-  padding-left: 630px;
-  padding-top: 110px;
+  padding-left: 500px;
+  padding-top: 40px;
 }
 .feedcontainer{
   background-color: #717c99;
@@ -560,7 +560,7 @@ tbody {
 }
 .headidea{
   padding-left: 700px;
-  padding-right: 750px;
+  padding-right: 700px;
   
 }
 .bcitext p{
