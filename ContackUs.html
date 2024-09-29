@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="shortcut icon" href="images/s.png" type="image/x-icon">
+
+    <script>
+        function redirectToThankYou() {
+            window.location.href = "thankyou.html";
+        }
+    </script>
+    <title>Contack US</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+          <input type="checkbox" id="check">
+          <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+          </label>
+          <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="item"><a href="academics.html">Academics</a></li>
+                    <li class="item"><a href="hobbies.html">Hobbies</a></li>
+                    <li class="item"><a href="achive.html">Achievements</a></li>
+                    <li class="item"><a href="ideas.html">Startup Ideas</a></li>
+                    <li class="item"><a href="slogan.html">Slogan Spectrum</a></li>
+                    <li class="item"><a href="feedback.html">Feedback</a></li>
+                    <li><a class="active"href="ContackUs.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="contact_container">
+        <div class="part1_contact">
+
+            <h1>Get in touch</h1>
+            &nbsp;
+            <div class="container_social1">
+                <a class="link linkedin" href="https://www.linkedin.com/in/shubham-vaishnav2313/" >
+                    <i class="fab fa-2x fa-linkedin"></i>
+                </a>
+                &nbsp;
+                <a class="link github" href="https://github.com/shubham-vaishnav-13">
+                    <i class="fab fa-2x fa-github" ></i>
+                </a>
+                &nbsp;
+                <a class="link twitter" href="https://twitter.com/ShubhamVai1934">
+                    <i class="fab fa-2x fa-twitter"></i>
+                </a>
+          </div>
+          
+
+          
+        </div>
+        <div class="part2_contact" style="width: 50%; float: right;">
+
+            <div class="form-conatainer">
+                <form  id="form" class="form-section" method="POST" action="ThankYou.html">
+                    <h2 >Contact Us </h2>
+                    <br>
+                    <div class="form-input">
+                        <label for="fullname"  >Full Name  :</label>
+                        <input type="text" id="fullname" name ="fullname" placeholder="Enter Your Name" required>
+                    </div>
+        
+                <div class="form-input">
+                    <label for="email" >E-mail:</label>
+                    <input type="email" placeholder="abc123@gmail.com">
+                </div>
+        
+                <div class="form-input">
+                    <label for="no"  >Phone Number :</label>
+                    <input type="number" id="no" name ="no" placeholder="Enter Your Number" required>
+                </div>
+        
+                <div class="form-input">
+                    <h4 style="color: black; padding-bottom: 5px;">Enter Your Message </h4>
+                    <textarea placeholder="Enter Your Message Here !" rows="3" cols="40" style="border-radius: 5px;"></textarea>
+                </div>
+        
+            <div class="form-submit">
+                <button type="button" onclick="redirectToThankYou()">Submit</button>
+            </a>
+            </div>
+                </form>
+            </div>
+
+        </div>
+
+      </div>
+
+   
+    
+    
+</body>
+</html>
